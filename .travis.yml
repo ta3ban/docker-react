@@ -7,5 +7,5 @@ before_install:
   - docker build -t mm-docker-react -f Dockerfile.dev .
 
 script:
-  - docker run mm-docker-react npm run test
+  - docker run mm-docker-react
 
