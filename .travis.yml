@@ -9,4 +9,4 @@ before_install:
 script:
   - docker run mo-docker-react npm run test -- --coverage
 
-  - travis_wait 20 julia --project -e 'using Pkg; Pkg.build(); Pkg.test(; coverage=true)';
+  - travis_wait 20 
